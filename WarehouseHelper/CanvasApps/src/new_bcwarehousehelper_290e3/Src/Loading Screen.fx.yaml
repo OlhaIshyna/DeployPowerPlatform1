@@ -225,7 +225,7 @@
         Width: =Parent.Width
         ZIndex: =3
 
-    imgLoadingSpinner As image:
+    imgLoadingSpinner1 As image:
         Fill: =
         Image: =Spinner_DarkBlue_2x
         X: =(Parent.Width- Self.Width)/2
