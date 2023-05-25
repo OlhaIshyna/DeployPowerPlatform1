@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "33a667b2-c6d1-4864-b1c2-2040116d58ae",
+    "Name": "UpdateItemInventoryForLocation",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "c84ed00d-d4e4-ed11-a7c6-000d3a991110"
+  }
+]

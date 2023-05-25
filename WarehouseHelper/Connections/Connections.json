@@ -1,0 +1,130 @@
+{
+  "b85f953d-bb51-4517-a85a-7ad86cecdc50": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1615/1.0.1615.3163/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "fc5cc552-9879-4472-be2f-2efce8c414bd": {
+          "value": "shared_dynamicssmbsaas"
+        },
+        "workflowEntityId": {
+          "value": "c84ed00d-d4e4-ed11-a7c6-000d3a991110"
+        },
+        "workflowName": {
+          "value": "bfdfc6ae-05cd-c74b-20c4-a46ccdacb84e"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_dynamicssmbsaas": {
+          "value": "fc5cc552-9879-4472-be2f-2efce8c414bd"
+        },
+        "workflowEntityId": {
+          "value": "c84ed00d-d4e4-ed11-a7c6-000d3a991110"
+        },
+        "workflowName": {
+          "value": "bfdfc6ae-05cd-c74b-20c4-a46ccdacb84e"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "UpdateItemInventoryForLocation"
+    ],
+    "dependencies": {
+      "shared_dynamicssmbsaas": "fc5cc552-9879-4472-be2f-2efce8c414bd"
+    },
+    "dependents": [],
+    "id": "b85f953d-bb51-4517-a85a-7ad86cecdc50"
+  },
+  "fb79f070-8915-4ea1-8bd1-7c47b62c6ab9": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Power Automate for Admins",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1631/1.0.1631.3268/microsoftflowforadmins/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_microsoftflowforadmins",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "PowerAutomateforAdmins"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "fb79f070-8915-4ea1-8bd1-7c47b62c6ab9"
+  },
+  "fb7ef795-6205-46bd-8e9d-086cf26ae922": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1626/1.0.1626.3238/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "fb7ef795-6205-46bd-8e9d-086cf26ae922"
+  },
+  "fc5cc552-9879-4472-be2f-2efce8c414bd": {
+    "connectionRef": {
+      "apiTier": "Premium",
+      "displayName": "Dynamics 365 Business Central",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1624/1.0.1624.3220/dynamicssmbsaas/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_dynamicssmbsaas",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "staging,dc50d5e8-f9c9-ed11-94cc-000d3a220b2": {
+        "dataSources": {
+          "languageResources (businessCentralDemos/warehouseHelper/beta)": {
+            "tableName": "languageResources,businessCentralDemos%252FwarehouseHelper%252Fbeta"
+          },
+          "localeInformation (businessCentralDemos/warehouseHelper/beta)": {
+            "tableName": "localeInformation,businessCentralDemos%252FwarehouseHelper%252Fbeta"
+          },
+          "locations (v2.0)": {
+            "tableName": "locations,v2.0"
+          },
+          "warehouseItemsWithImage (businessCentralDemos/warehouseHelper/beta)": {
+            "tableName": "warehouseItemsWithImage,businessCentralDemos%252FwarehouseHelper%252Fbeta"
+          },
+          "warehouses (businessCentralDemos/warehouseHelper/beta)": {
+            "tableName": "warehouses,businessCentralDemos%252FwarehouseHelper%252Fbeta"
+          }
+        }
+      },
+      "STAGING,dc50d5e8-f9c9-ed11-94cc-000d3a220b2f": {
+        "dataSources": {
+          "items (v2.0)": {
+            "tableName": "items,v2.0"
+          },
+          "itemsWithImage (microsoft/powerApps/beta)": {
+            "tableName": "itemsWithImage,microsoft%252FpowerApps%252Fbeta"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "locations (v2.0)",
+      "languageResources (businessCentralDemos/warehouseHelper/beta)",
+      "localeInformation (businessCentralDemos/warehouseHelper/beta)",
+      "warehouseItemsWithImage (businessCentralDemos/warehouseHelper/beta)",
+      "warehouses (businessCentralDemos/warehouseHelper/beta)",
+      "itemsWithImage (microsoft/powerApps/beta)",
+      "items (v2.0)"
+    ],
+    "dependencies": {},
+    "dependents": [
+      "b85f953d-bb51-4517-a85a-7ad86cecdc50"
+    ],
+    "id": "fc5cc552-9879-4472-be2f-2efce8c414bd"
+  }
+}
