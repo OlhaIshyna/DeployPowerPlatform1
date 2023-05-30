@@ -3,11 +3,17 @@
   "templateUrl": "https://github.com/Microsoft/AL-Go-PTE@main",
   "powerPlatformSolutionFolder": "WarehouseHelper",
   "environments": [ 
-    "Staging"
+    "Production",
+    "TestQA"
   ],
-  "DeployToStaging": {
-    "environmentName": "staging",
-    "companyId": "dc50d5e8-f9c9-ed11-94cc-000d3a220b2",
-    "ppEnvironmentUrl": "https://org9b5ae957.crm.dynamics.com/"
-  }
+  "DeployToProduction": {
+    "environmentName": "Production",
+    "companyId": "dc50d5e8-f9c9-ed11-94cc-000d3a220",
+    "ppEnvironmentUrl": "https://org38d80bf5.crm.dynamics.com/"
+  },
+  "DeployToTestQA": {
+    "environmentName": "TestQA",
+    "companyId": "14bce256-55e9-ed11-8850-6045bde98bba",
+    "ppEnvironmentUrl": "https://org8e66d3bc.crm.dynamics.com/"
+}
 }
